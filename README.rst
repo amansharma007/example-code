@@ -1,7 +1,7 @@
 Fluent Python: example code
 ===========================
 
-edit
+edit2
 
 Example code for the book `Fluent Python`_ by Luciano Ramalho (O'Reilly, 2014).
 
