@@ -47,4 +47,5 @@ class HauntedBus:
         self.passengers.remove(name)
 
 
+
 # END HAUNTED_BUS_CLASS
