@@ -35,7 +35,9 @@ True
 class HauntedBus:
     """A bus model haunted by ghost passengers"""
 
-    def __init__(self, passengers=[]):  # <1>
+    def __init__(self, passengers=None):
+        if passengers is None:
+            passengers = []
         self.passengers = passengers  # <2>
 
     def pick(self, name):
