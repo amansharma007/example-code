@@ -11,10 +11,10 @@ enabled = true
 name = "javascript"
 enabled = true
 
-[[ transformers ]]
-name = "black"
-enabled = true
-	
-	[ transformers.meta ]
-	line_length = 89
-	exclude = [".git", ".venv", ".eggs"]
+  [analyzers.meta]
+  ecma_version = "2020"
+  module_system = "commonjs"
+  environment = [
+    "nodejs",
+    "browser"
+  ]
